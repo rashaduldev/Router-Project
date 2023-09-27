@@ -1,0 +1,29 @@
+// import { useLoaderData } from "react-router-dom";
+// import Banner from "./Banner/Banner";
+// import Catagories from "./Catagories/Catagories";
+// import './Home.css'
+
+
+// const Home = () => {
+
+//     const allCard=useLoaderData();
+//     console.log(allCard.items);
+
+//     if (!Array.isArray(allCard)) {
+//         return null; 
+//     }
+//     return (
+//         <div>
+//             <div className="layout-container">
+//             <div className="overlay"></div>
+//             <Banner></Banner>
+           
+//             </div>
+            
+//             <Catagories allCard={allCard}></Catagories>
+            
+//         </div>
+//     );
+// };
+
+// export default Home;
